@@ -15,6 +15,27 @@ The Ultimate Evolutionary Playground is a fully terminal-based simulation that m
 *** 
 ## ⚙️ How It Works
 
+### Non-Technical Explanation
+
+Imagine a board game where you drop a bunch of little critters (the agents) on a checkerboard.  
+Some squares have **food**, some have **walls**, and the critters need food to survive.  
+
+Each critter is born with a set of “personality sliders”:
+- How fast it moves,
+- Which way it tends to go,
+- How strongly it goes after food.
+
+The critters wander around:
+- If they find food, they do better.
+- If they hit walls or starve, they do worse.
+
+After a round, the “best” critters have babies.  
+Those babies are mostly like their parents but with tiny random changes.  
+Generation after generation, the critters slowly **get better at surviving**, all by themselves, no one is telling them what to do.
+
+You can watch this happen live in your terminal as dots, stars, and letters move around, and later you can open the saved CSV file to make cool graphs of how they evolved.
+
+### Technical Explanation
 The simulation follows a classic evolutionary computation loop. Each generation introduces new environmental challenges and refines the population's genetic makeup.
 
 1. **Initialization**: The program first prompts for key parameters like population size, number of generations, and mutation rate. It then creates a grid world with randomly placed food, obstacles, and terrain patches. The first generation of agents is spawned with a diverse set of random genes, including speed, movement bias, food-seeking tendency, and strategy (cooperative/aggressive).
