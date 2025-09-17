@@ -2,6 +2,8 @@
 
 The Ultimate Evolutionary Playground is a fully terminal-based simulation that models a population of agents evolving over time in a dynamic environment. It’s written in Python with `curses` for real-time ASCII graphics, so it runs directly in a Unix or WSL terminal — no web front-end or GUI toolkit required. At its core, the project combines an agent-based model with a genetic algorithm to produce complex emergent behavior. You can watch as populations adapt to changing food availability, terrain, and the strategies of their peers, all from the comfort of your command line.
 
+![code in action](/evolve.gif)
+
 ***
  ## ✨ Features
 
