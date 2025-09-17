@@ -11,7 +11,7 @@ The Ultimate Evolutionary Playground is a fully terminal-based simulation that m
 *  **Interactive Runtime Controls**: Don't just watch—interact! You can pause the simulation to observe a specific event, toggle a high-speed mode to accelerate evolution, or switch display modes on the fly. This makes the tool perfect for live demos and educational purposes.
 
 *** 
-##⚙️ How It Works
+## ⚙️ How It Works
 
 The simulation follows a classic evolutionary computation loop. Each generation introduces new environmental challenges and refines the population's genetic makeup.
 
